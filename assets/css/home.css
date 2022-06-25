@@ -42,6 +42,103 @@ margin: 0 15px;
     height: auto;
 }
 
+
+.option_container .content h1{
+    text-align: center;
+    margin-top: 165px;
+    font-size: 50px;
+    font-weight: 10px;
+}
+
+.option_container .input_button{
+    padding: 20px;
+    width: 90%;
+    margin-left: 250px;
+}
+
+.option_container .input_button input{
+    padding : 5px;
+    font-size: 20px;
+}
+
+input[type = text]{
+    width: 60%;   
+} 
+
+button{
+    width: 100px;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 35px;
+    background-color: #F0D1EB;
+}
+
+.option_container .input_button button{
+    font-size: 24px;
+}
+
+.table{
+    margin: 0 auto;
+    height: 300px;
+    width: 70%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.box{
+    padding-top: 20px;
+}
+
+.line_inTable_1{
+    margin: 0 auto;
+    height: 20px; 
+    width: 80%; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table .line_inTable_1 .col_1 {
+    height: 50px;
+    text-align: center;
+    float: left;
+    padding-left: 90px;
+}
+.table .line_inTable_1 .col_2{
+    text-align: center;
+    float: right;
+    padding-right: 90px;
+}
+
+
+.box_2{
+    padding-top: 20px;
+}
+.box_2 .line_inTable_2{
+    margin: 0 auto;
+    height: 10px; 
+    width: 77%; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box_2 .line_inTable_2 .col_1 {
+    height: 50px;
+    text-align: center;
+    float: left;
+    padding-left: 75px;
+}
+.box_2 .line_inTable_2 .col_2{
+    text-align: center;
+    float: right;
+    padding-right: 90px;
+}
+.box_2 .line_inTable_2 .col_2 span{
+    font-size: 13px;
+}
+
+/* 
 .option_container{
 max-width: 40%;
 display: flex;
@@ -52,6 +149,7 @@ border-radius: 10px;
 border: 0px solid black;
 box-shadow: 10px 1px 1px 1px gray;
 }
+
 .option_container div{
 background-color: antiquewhite;
 width: 150px;
@@ -82,4 +180,4 @@ border: 1px solid gray;
     transform: scale(1.1);
     border: 1px solid black;
     
-}
+} */
